@@ -3,9 +3,17 @@
     html {
         font-size: 55%;
     }
-    
+
     header {
         padding: 2rem;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .home {
+        background-position: left;
     }
 }
 
@@ -34,6 +42,14 @@
         background: #fff;
         border: .1rem solid rgba(0, 0, 0, .1);
         display: block;
+    }
+
+    .content h3 {
+        font-size: 5rem;
+    }
+
+    .content span {
+        font-size: 2.5rem;
     }
 }
 

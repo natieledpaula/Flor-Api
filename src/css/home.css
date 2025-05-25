@@ -78,3 +78,54 @@ header {
     border: .1rem solid rgba(0, 0, 0, .3);
     display: none;
 }
+
+section {
+    padding: 2rem 9%;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/fundo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    max-width: 50rem;
+}
+
+.content h3 {
+    font-size: 6rem;
+    color: #333;
+}
+
+.content span {
+    font-size: 3.5rem;
+    color: var(--pink);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: aliceblue;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover {
+    background-color: var(--pink);
+}
