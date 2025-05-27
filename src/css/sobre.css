@@ -72,7 +72,7 @@
     padding-bottom: 5rem;
 }
 
-.icons {
+.icons-container .icons {
     background: #fff;
     border: .1rem solid rgba(0, 0, 0, .1);
     padding: 2rem;
@@ -81,18 +81,18 @@
     flex: 1 1 25rem;
 }
 
-.icons img {
+.icons-container .icons img {
     height: 5rem;
     margin-right: 2rem;
 }
 
-.icons h3 {
+.icons-container .icons h3 {
     color: #333;
     padding-bottom: .5rem;
     font-size: 1.5rem;
 }
 
-.icons span {
+.icons-container .icons span {
     color: #555;
     font-size: 1.3rem;
 }
