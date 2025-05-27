@@ -134,6 +134,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    flex-direction: column;
 }
 
 .box {
@@ -160,7 +161,6 @@ section {
     text-align: center;
     padding-top: 2rem;
     overflow: hidden;
-    justify-content: column;
 }
 
 .box .image img {
