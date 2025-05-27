@@ -51,6 +51,14 @@
     .content span {
         font-size: 2.5rem;
     }
+
+    .icons h3 {
+        font-size: 2rem;
+    }
+
+    .icons span {
+        font-size: 1.7rem;
+    }
 }
 
 @media (max-width: 450px) {
