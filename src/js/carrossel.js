@@ -91,3 +91,17 @@ function showNotification() {
         notification.classList.remove('show'); // Remove a classe "show" para esconder a notificação = 'none';
     }, 3000);
 }
+
+// Finalização de Compra
+function checkout() {
+    if(cart.length === 0) {
+        alert('Seu carrinho esta vazio');
+        return;
+    }
+
+    const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    alert(`Compra finalizada com sucesso! Total: R$ ${total.toFixed(2).replace('.', ',')}/n/nObrigado pela compra!`);
+    cart = []; // Limpa o carrinho
+    updateCart();
+}
+
