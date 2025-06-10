@@ -105,3 +105,13 @@ function checkout() {
     updateCart();
 }
 
+// Auto-rotação do Carrossel
+setInterval(() => {
+    if(currentSlide >= totalSlides - slidesToShow) {
+        currentSlide = 0;
+    } else {
+        currentSlide++;
+    }
+
+    updateCarousel();
+}, 5000);
