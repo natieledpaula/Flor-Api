@@ -26,4 +26,14 @@ function moveCarousel(direction) {
     updateCarousel();
 }
 
-//
+// Verifica se o item já existe no carrinho
+function addToCart(name, price) {
+    const existingItem = cart.find(item => item.name === name);
+    if (existingItem) {
+        existingItem.quantity++;
+    } else {
+        cart.push({ name, price, quantity: 1 });
+    }
+    updateCart();
+    showNotification();
+}
