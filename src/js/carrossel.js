@@ -100,7 +100,7 @@ function checkout() {
     }
 
     const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    alert(`Compra finalizada com sucesso! Total: R$ ${total.toFixed(2).replace('.', ',')}/n/nObrigado pela compra!`);
+    alert(`Compra finalizada com sucesso! Total: R$ ${total.toFixed(2).replace('.', ',')} Obrigado pela compra!`);
     cart = []; // Limpa o carrinho
     updateCart();
 }
@@ -115,3 +115,6 @@ setInterval(() => {
 
     updateCarousel();
 }, 5000);
+
+// Inicializa o carrossel
+updateCarousel();
