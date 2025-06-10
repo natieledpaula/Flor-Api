@@ -37,3 +37,9 @@ function addToCart(name, price) {
     updateCart();
     showNotification();
 }
+
+// Remove completamente um item do carrinho
+function removeFromCart(name) {
+    cart = cart.filter(item => item.name !== name);
+    updateCart();
+}
