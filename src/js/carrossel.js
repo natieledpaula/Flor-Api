@@ -15,3 +15,15 @@ function updateCarousel() {
     document.getElementById('prevBtn').disabled = currentSlide === 0;
     document.getElementById('nextBtn').disabled = currentSlide >=totalSlides - slidesToShow;
 }
+
+// Verifica limites para não passar dos slides disponíveis
+function moveCarousel(direction) {
+    if(direction === 1 && currentSlide < totalSlides - slidesToShow) {
+        currentSlide++;
+    } else if(direction === -1 && currentSlide > 0) {
+        currentSlide--;
+    }
+    updateCarousel();
+}
+
+//
