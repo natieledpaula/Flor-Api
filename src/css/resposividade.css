@@ -120,19 +120,19 @@
 
 @media (max-width: 480px) {
     .carousel-container {
-        padding: 15px 5px;
+        padding: 10px 5px;
     }
 
     .carousel-wrapper {
-        gap: 10px;
+        gap: 8px;
     }
 
     .flower-card {
-        min-width: 260px;
+        min-width: 219px;
     }
 
     .flower-card:hover {
-        transform: translateY(-5px);
+        transform: translateY(-3px);
     }
 }
 
@@ -171,14 +171,14 @@
     }
 
     .price-tag {
-        padding: 5px 10px;
+        padding: 5px 5px;
         font-size: 0.9rem;
-        top: 10px;
-        right: 10px;
+        top: 5px;
+        right: 5px;
     }
 
     .card-content {
-        padding: 15px;
+        padding: 5px;
     }
 
     .flower-name {
@@ -214,7 +214,7 @@
 @media (max-width: 480px) {
     .carousel-nav {
         gap: 10px;
-        margin-top: 15px;
+        margin-top: 5px;
     }
 
     .nav-button {
@@ -256,7 +256,7 @@
 
 @media (max-width: 480px) {
     .cart {
-        padding: 15px 10px;
+        padding: 5px 5px;
     }
 
     .cart-header h2 {
@@ -264,11 +264,11 @@
     }
 
     .cart-items {
-        max-height: 150px;
+        max-height: 100px;
     }
 
     .cart-item {
-        padding: 12px;
+        padding: 5px;
     }
 
     .cart-item small {
