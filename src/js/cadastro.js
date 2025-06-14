@@ -31,3 +31,13 @@ const preencherFormulario = (endereco) => {
     document.getElementById('cidade').value = endereco.localidade;
     document.getElementById('estado').value = endereco.uf;
 }
+
+// Função para limpar o formulário
+const limparFormulario = () => {
+    document.getElementById('rua').value = '';
+    document.getElementById('bairro').value = '';
+    document.getElementById('cidade').value = '';
+    document.getElementById('estado').value = '';
+}
+
+document.getElementById('cep').addEventListener('focusout', buscaCep);
