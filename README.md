@@ -33,6 +33,11 @@ Embora o formulário ainda não envie os dados para um back-end, ele pode ser fa
 ![alt text](src/img/image.png)
 ![alt text](src/img/image1.png)
 ![alt text](src/img/image2.png)
+![alt text](src/img/image3.png)
+![alt text](src/img/image4.png)
+![alt text](src/img/image5.png)
+![alt text](src/img/image6.png)
+![alt text](src/img/image7.png)
 
 ---
 
