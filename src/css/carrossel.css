@@ -2,8 +2,11 @@
     --pink: #e84393
 }
 
+body {
+    background-color: aliceblue;
+}
+
 .container {
-    max-width: 1200px;
     margin: 0 auto;
     background: aliceblue;
     border-radius: 20px;

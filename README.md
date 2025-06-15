@@ -34,7 +34,11 @@ Embora o formulário ainda não envie os dados para um back-end, ele pode ser fa
 ![alt text](src/img/image1.png)
 ![alt text](src/img/image2.png)
 
-![Preview do Projeto](https://natieledpaula.github.io/Flor-Api/assets/preview.png)
+---
+
+## 📸 Prévia do Projeto
+
+![Preview do Projeto](https://natieledpaula.github.io/Flor-Api/)
 
 ---
 
