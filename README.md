@@ -43,7 +43,7 @@ Embora o formulário ainda não envie os dados para um back-end, ele pode ser fa
 
 ## 📸 Prévia do Projeto
 
-![Preview do Projeto](https://natieledpaula.github.io/Flor-Api/)
+(https://natieledpaula.github.io/Flor-Api/)
 
 ---
 
