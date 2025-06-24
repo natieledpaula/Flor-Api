@@ -55,11 +55,11 @@ Flor-Api/
 ├── cadastro.html # Tela de cadastro simples
 ├── sobre.html # Descrição do site
 ├── src/
-| ├── css # Estilização do site
-│ ├── img # Imagem das flores e dos icones
-| └── js/
-|      ├── cadastro.js # Tela de cadastro com Api de CEP
-|      └── carrossel.js # Funcionalidade do crrossel das flores e do carrinho de compras
+|    ├── css # Estilização do site
+│    ├── img # Imagem das flores e dos icones
+|    └── js/
+|         ├── cadastro.js # Tela de cadastro com Api de CEP
+|         └── carrossel.js # Funcionalidade do crrossel das flores e do carrinho de compras
 └── README.md # Documentação do projeto
 ```
 
