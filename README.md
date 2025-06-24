@@ -67,13 +67,13 @@ Flor-Api/
 
 ## 🎨 Paleta de Cores
 
-| Elemento               | Descrição                  | HEX       | Amostra |
-|------------------------|----------------------------|-----------|---------|
-| Fundo da Página        | Branco Rosado              | `#FFF0F5` | ![#FFF0F5](https://via.placeholder.com/15/FFF0F5/000000?text=+) |
-| Texto Principal        | Cinza Escuro               | `#2D2D2D` | ![#2D2D2D](https://via.placeholder.com/15/2D2D2D/000000?text=+) |
-| Botão Principal        | Rosa Flor                  | `#E91E63` | ![#E91E63](https://via.placeholder.com/15/E91E63/000000?text=+) |
-| Borda de Campos        | Rosa Claro                 | `#F8BBD0` | ![#F8BBD0](https://via.placeholder.com/15/F8BBD0/000000?text=+) |
-| Hover do Botão         | Rosa Escuro                | `#AD1457` | ![#AD1457](https://via.placeholder.com/15/AD1457/000000?text=+) |
+| Elemento               | Descrição                  | HEX       |
+|------------------------|----------------------------|-----------|
+| Fundo da Página        | Branco Rosado              | `#FFF0F5` |
+| Texto Principal        | Cinza Escuro               | `#2D2D2D` |
+| Botão Principal        | Rosa Flor                  | `#E91E63` |
+| Borda de Campos        | Rosa Claro                 | `#F8BBD0` |
+| Hover do Botão         | Rosa Escuro                | `#AD1457` |
 
 ---
 
